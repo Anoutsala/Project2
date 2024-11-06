@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Login</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Global styles -->
+    <link rel="stylesheet" href="src/login.css">  <!-- Link to the login-specific styles -->
+</head>
+<body>
+    <div class="login-page">
+        <div class="login-container">
+            <img src="SpotifyLogo.png" alt="Spotify Logo" class="logo-image">
+            <h1>Log In to Spotify</h1>
+
+            <div class="social-login">
+                <button class="google-btn">
+                    Continue with Google
+                </button>
+                <button class="facebook-btn">
+                    Continue with Facebook
+                </button>
+                <button class="apple-btn">
+                    Continue with Apple
+                </button>
+            </div>
+
+            <form>
+                <label for="email">Email or Username</label>
+                <input type="text" id="email" name="email" placeholder="Email or username" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Password" required>
+
+                <button type="submit">Log In</button>
+            </form>
+
+            <p><a href="#">Forgot your password?</a></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+

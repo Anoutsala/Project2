@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark background */
+    color: #fff; /* White text color */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    margin-bottom: 30px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+body {
+    background-image: url("images/All\ Backgrounds\ .png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: rgb(248, 246, 246);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.mood-card {
+    position: relative; /* Set the container as a relative position */
+    display: inline-block; /* Make it inline so it fits content */
+}
+
+.mood-card img {
+    width: 100%; /* Make image responsive to container size */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.mood-card p {
+    position: absolute; /* Position the text absolutely within the container */
+    top: 50%; /* Move the text to the vertical center */
+    left: 50%; /* Move the text to the horizontal center */
+    transform: translate(-50%, -50%); /* Offset the text to perfectly center it */
+    color: white; /* Text color */
+    font-size: 24px; /* Adjust font size as needed */
+    font-weight: bold; /* Optional: Make the text bold */
+    text-align: center; /* Center align the text */
+}

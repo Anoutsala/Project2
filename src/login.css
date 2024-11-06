@@ -1,0 +1,101 @@
+/* login.css */
+body {
+    background-image: url("images/All\ Backgrounds\ .png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: rgb(248, 246, 246);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 400px; /* Set max width for the login form */
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    color: #333;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #29b03d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #45a049;
+}
+
+.logo-image {
+    width: 50px; /* Adjust the width to make the image smaller */
+    height: auto; /* Maintain the aspect ratio */
+    margin-bottom: 5px; /* Optional: Adds space below the image */
+}
+
+form {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    gap: 10px; /* Add space between form elements */
+    align-items: flex-start; /* Align form elements to the left */
+    margin-top: 30px;
+}
+
+label {
+    margin-bottom: 5px; /* Space between label and input */
+}
+
+input {
+    width: 250px; /* Adjust the width of inputs as needed */
+    padding: 8px; /* Add some padding inside the input field */
+    margin-bottom: 5px; /* Add space between input and button */
+}
+
+button {
+    width: 100%; /* Make the button take the full width */
+    padding: 10px; /* Add padding for a better look */
+    background-color: #1DB954; /* Spotify green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1AA34A; /* Darker green when hovered */
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark background */
+    color: #fff; /* White text color */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+

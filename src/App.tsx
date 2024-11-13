@@ -1,35 +1,33 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
 
-function App() {
-  const [count, setCount] = useState(0)
+// import React from 'react';
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+// import Navbar from './components/Navbar';
+// import Login from './pages/Login';
+// import MoodSelection from './pages/MoodSelection';
+// import Playlists from './pages/Playlists';
+// import Profile from './pages/Profile';
 
-  return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+// const App: React.FC = () => {
+//   return (
+//     <Router>
+//       <Navbar />
+//       <Routes>
+//         <Route path="/" element={<Login />} />
+//         <Route path="/mood-selection" element={<MoodSelection />} />
+//         <Route path="/playlists" element={<Playlists />} />
+//         <Route path="/profile" element={<Profile />} />
+//       </Routes>
+//     </Router>
+//   );
+// };
 
-export default App
+// export default App;
+
+import React from 'react';
+
+const App: React.FC = () => {
+  return <div>Hello World</div>;
+};
+
+export default App;
+
